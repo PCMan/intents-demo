@@ -9,7 +9,8 @@ To add this item to pcmanfm, use the DES-EMA spec.
 http://www.grumz.net/?q=node/377
 
 A demo config file send_to.desktop is included here.
-1. Put that file in ~/.config/file-manager-actions.
+1. Put that file in ~/.local/share/file-manager/actions.
+2. Edit the content of ~/.local/share/file-manager/actions/send_to.desktop, replace the config file on the Exec line with yours.
 2. kill pcmanfm-qt, and restart it.
 3. Select some files, and right click on them and you'll see the newly added popup menu item.
 
