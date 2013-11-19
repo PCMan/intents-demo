@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name = Share the files
+Tooltip = Share the currently selected files
+Icon=
+Profiles = on_files
+
+[X-Action-Profile on_files]
+Name = Share the files
+# MimeTypes = all/all;
+# SelectionCount = 1
+Exec = intents-demo /home/pcman/lxde-qt/intents-demo/demo.conf %U
